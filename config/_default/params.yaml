@@ -16,7 +16,7 @@ keywords: Hugo, Bootstrap, Blog Theme
 
 # logo: images/logo.png # Logo image. Default to images/logo.webp.
 logo: false # Disable Logo
-brand: CMPI4
+brand: MUNOZPI
 
 palette: blue-gray # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
@@ -228,7 +228,7 @@ fontSize:
 pwa:
   manifest:
     name:  # Default to site title.
-    short_name: CMPI4
+    short_name: MUNOZPI
     # display: fullscreen # Default to standalone.
     # description:  # Default to site description.
     # theme_color: 
