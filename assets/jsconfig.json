@@ -1,0 +1,11 @@
+{
+ "compilerOptions": {
+  "baseUrl": ".",
+  "paths": {
+   "*": [
+    "*",
+    "../../../../../../../../tmp/hugo_cache/modules/filecache/modules/pkg/mod/github.com/razonyang/hugo-theme-bootstrap@v1.0.0-alpha.15.0.20221123075838-db38287e5653/assets/*"
+   ]
+  }
+ }
+}
