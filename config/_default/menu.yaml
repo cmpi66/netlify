@@ -1,7 +1,7 @@
 main:
   - name: Home
     identifier: home
-    url: https://cmpi4.com/
+    url: https://munozpi.com/
     weight: 1
     params:
       icon: '<i class="fas fa-fw fa-home"></i>'
