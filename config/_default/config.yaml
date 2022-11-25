@@ -1,4 +1,5 @@
-baseURL: https://elaborate-sprite-b67a31.netlify.app/
+baseURL: https://munozpi.com/
+# baseURL: https://elaborate-sprite-b67a31.netlify.app/
 title: Hugo Bootstrap Skeleton
 theme: github.com/razonyang/hugo-theme-bootstrap
 copyright: 'Copyright © 2021-{year} Chris Munoz. All Rights Reserved.'
