@@ -9,7 +9,7 @@ toc: true
 reward: true
 pinned: false
 carousel: false
-categories:[]
+categories: []
 tags: []
 images: []
 ---
