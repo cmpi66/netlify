@@ -31,13 +31,15 @@ upgrade-hugo: ## Get the latest Hugo
 	hugo version
 
 dev: ## Run the local development server
-	hugo serve --enableGitInfo --disableFastRender --environment development
+	hugo serve --noHTTPCache --enableGitInfo --disableFastRender --environment development
 
 future: ## Run the local development server in the future
 	hugo serve --enableGitInfo --buildFuture --disableFastRender --environment development
 
+KILLPUB:=$(shell [ -d ./public ] && rm -rf ./public)
+
 build: ##  build site
-	hugo --minify --cleanDestination
+	 $(KILLPUB) hugo --gc --minify && hugo-theme-bootstrap-algolia
 
 start: upgrade-hugo serve ## Update Hugo and start development server
 
