@@ -195,7 +195,7 @@ viewer = true # Image Viewer
 [algolia]
  appId = "OGK07K5H0Q"
  apiKey = "6b3f59f8568ab7dc712498488e1d07a2"
- indexName = "munozpi.com"
+ indexName = "dev"
 
 # [reward]
 #   alipay = "images/reward/alipay.png"
