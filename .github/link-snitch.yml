@@ -8,11 +8,11 @@ on:
 env:
   URL: https://munozpi.com
   CONFIG: hydra-config.json
+  FILENAME: report.yaml
 
 jobs:
   check:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Check out main to get config file
         uses: actions/checkout@main
