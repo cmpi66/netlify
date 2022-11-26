@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 .POSIX:
-.PHONY: help install upgrade-hugo serve build start initial updatetheme
+.PHONY: help install upgrade-hugo serve build start initial updatetheme links
 
 help: ## Show this help
 	@egrep -h '\s##\s' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
@@ -10,6 +10,9 @@ updatetheme:
 	hugo mod tidy && \
 	hugo mod npm pack && \
 	npm update
+
+links:
+	python hydra.py https://www.munozpi.com --config ./hydra-config.json > report.yaml
 
 install: ## Install or update dependencies
 	npm i

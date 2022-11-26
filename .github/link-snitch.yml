@@ -6,7 +6,7 @@ on:
       - main 
 
 env:
-  URL: https://munozpi.com
+  URL: https://www.munozpi.com
   CONFIG: hydra-config.json
   FILENAME: report.yaml
 
