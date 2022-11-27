@@ -1,5 +1,5 @@
 ---
-# type: docs 
+type: docs 
 title: Test
 date: 2022-11-23T19:39:16-05:00
 featured: false
@@ -9,6 +9,11 @@ toc: true
 reward: true
 pinned: false
 carousel: false
+keywords: 
+  - linux 
+  - devops
+  - coding
+  - bash scripting
 tags: 
   - bash
   - haskell

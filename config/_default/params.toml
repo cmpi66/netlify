@@ -20,7 +20,7 @@ palette = "blue-gray" # Default palette. Optional. You'll need to clear the brow
 color = "light" # light, dark or auto. Default to auto.
 
 # fullWidth = true # Full width.
-# fixedHeader = false # Turn on/off fixed header.
+fixedHeader = false # Turn on/off fixed header.
 
 # dateFormat = ":date_full"
 
@@ -196,6 +196,8 @@ viewer = true # Image Viewer
  appId = "OGK07K5H0Q"
  apiKey = "6b3f59f8568ab7dc712498488e1d07a2"
  indexName = "dev"
+ paginate = 10
+ stallThreshold = 500
 
 # [reward]
 #   alipay = "images/reward/alipay.png"
@@ -258,16 +260,16 @@ viewer = true # Image Viewer
   #   siteKey = "6LcWQH0gAAAAAJPZN9S-wrugRUukNOiHfxmFOSM5"
 
 [repo]
-  url = "https://github.com/razonyang/hugo-theme-bootstrap"
-  # branch = "main"
+  url = "https://github.com/cmpi66/netlify"
+  branch = "main"
   # subPath = "exampleSite"
-  # dateFormat = "02/01/2006, 15:04:05 PM"
+  dateFormat = "01/02/2006, 03:04:05 PM"
 
 # [fullWidthInSections]
   # docs = true
 
 [topAppBar]
-  # colorToggle = false # Disable the color toggle
+  colorToggle = false # Disable the color toggle
   # coloredInDark = true # Colored in dark mode
   # dropdownMenuToggle = false # Hide the dropdown menu toggle.
   [topAppBar.social]
