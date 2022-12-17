@@ -11,6 +11,31 @@
   weight = 2
   [main.params]
     icon = '<i class="fas fa-fw fa-blog"></i>'
+[[main]]
+  identifier = "projects"
+  name = "Projects"
+  weight = 3
+  [main.params]
+    icon = '<i class="fa fa-folder"></i>'
+# [[main]]
+#   identifier = "test"
+#   name = "Test"
+#   weight = 4
+#   url = "/test"
+#   [main.params]
+#     icon = '<i class="fa fa-folder"></i>'
+# [[main]]
+#   identifier = "posts"
+#   name = "Posts"
+#   weight = 4
+#   [main.params]
+#     icon = '<i class="fa fa-folder"></i>'
+# [[main]]
+#   identifier = "content"
+#   name = "Content"
+#   weight = 5
+#   [main.params]
+#     icon = '<i class="fa fa-folder"></i>'
 # [[main]]
 #   name = "Support"
 #   identifier = "support"

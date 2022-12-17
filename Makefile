@@ -14,8 +14,8 @@ updatetheme:
 links:
 	python hydra.py https://www.munozpi.com --config ./hydra-config.json > report.yaml
 
-install: ## Install or update dependencies
-	npm i
+# install: ## Install or update dependencies
+# 	npm i
 	# npm install -g markdownlint-cli
 	# pre-commit install --install-hooks
 

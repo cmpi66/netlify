@@ -3,6 +3,7 @@
 title: {{ replace .Name "-" " " | title }}
 date: {{ .Date }}
 featured: false
+description: 
 draft: true
 comment: true
 toc: true
@@ -14,9 +15,5 @@ keywords: []
 tags: []
 images: []
 ---
-
-Summary.
-
-<!--more-->
 
 Content.

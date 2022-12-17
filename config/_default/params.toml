@@ -2,8 +2,8 @@ mainSections = ["posts", "docs", "blog", "news"] # Default to ["posts"].
 
 # titleSeparator = "|" # Title separator. Default to "-".
 
-description = "An extreme fast, responsive and feature-rich blog theme for Hugo"
-keywords = "Hugo, Bootstrap, Blog Theme"
+description = "A website on all things linux and tech"
+keywords = "Linux, Homelab, self-hosted, bash, programming"
 # images = ["site-feature-image.jpg"]
 
 # metaRobots = "noindex, nofollow" # Default value for Meta Tag "robots"
@@ -27,14 +27,14 @@ fixedHeader = false # Turn on/off fixed header.
 # Google Adsense
 googleAdsense = ""
 
-# math = true # Enable math globally.
+math = true # Enable math globally.
 # toc = false # Disable TOC globally.
 # tocPosition = "content"
 # breadcrumb = false # Disable breadcrumb
 # breadcrumbDivider = ">" # Breadcrumb divider
 # diagram = true
 # socialShare = false # disable social network sharing
-# searchBar = false # disable search-bar
+searchBar = false # disable search-bar
 
 # poweredBy = false # Whether to show powered by.
 
@@ -45,7 +45,7 @@ googleAdsense = ""
 # recentPostCount = 10 # The number of recent posts shown in sidebar. Turn off by setting it to false.
 # relatedPostCount = 10 # The number of related posts. Turn off by setting it to false.
 # categoryCount = 10 # The number of categories shown in sidebar. Turn off by setting it to false.
-# tagCount = 10 # The number of tags shown in sidebar. Turn off by setting it to false.
+tagCount = 20 # The number of tags shown in sidebar. Turn off by setting it to false.
 # seriesCount = 20 # The number of series shown in sidebar. Turn off by setting it to false.
 # taxonomyPaginate = 5 # Default to 10.
 taxonomyPostCount = 20 # The number of taxonomy's posts. Turn off by setting it to false.
@@ -73,7 +73,7 @@ viewer = true # Image Viewer
 # rss = "home" # link the RSS button to homepage all the times.
 
 [sidebar]
-  fixed = true
+  # fixed = true
   # archives = true # Enable archives widget
   # taxonomiesToggle = false # Disable taxonomy toggle
   # taxonomiesToggleArchives = false # Don't show the archives on taxonomies toggle widget.
@@ -87,16 +87,16 @@ viewer = true # Image Viewer
   collapsed = true # Collapse sidebar widgets by default on small screens.
 
 [codeBlock]
-  # maxLines = 8
+  maxLines = 30
   lineNos = false # true/false represents that show/hide the line numbers by default.
 
 [post]
-  # excerpt = "description"
+  excerpt = "description"
   # excerptMaxLength = 120
   copyright = false # Whether to display copyright section on each post.
   # plainifyExcerpt = false # Format excerpt in HTML if false.
   featuredImage = true # Show the featured image above the content.
-  numberifyHeadings = true # Count headings automatically.
+  numberifyHeadings = false # Count headings automatically.
   # numberifyHeadingsEndLevel = 4 # The depth of headings to count. Default to 6.
   numberifyHeadingsSeparator = "." # The separator between of number and headings.
   # tocStyleType = "decimal" # The TOC's CSS list-style-type property.

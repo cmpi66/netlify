@@ -2,6 +2,6 @@
 title: Chris Munoz
 social:
   github: cmpi66
-  email: munozchris@posteo.net
+  email: chris@munozpi.com
   website: https://munozpi.com/
 ---

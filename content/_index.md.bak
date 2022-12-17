@@ -2,6 +2,7 @@
 ---
 title: Home
 type: landing
+sidebar: false
 ---
 
 {{< text/align-center >}}
