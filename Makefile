@@ -5,13 +5,13 @@ SHELL := /bin/bash
 help: ## Show this help
 	@egrep -h '\s##\s' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
 
-updatetheme:
+updatetheme: # update theme
 	hugo mod get github.com/razonyang/hugo-theme-bootstrap@master && \
 	hugo mod tidy && \
 	hugo mod npm pack && \
 	npm update
 
-links:
+links: # show broken links
 	python hydra.py https://www.munozpi.com --config ./hydra-config.json > report.yaml
 
 # install: ## Install or update dependencies
@@ -31,14 +31,14 @@ upgrade-hugo: ## Get the latest Hugo
 	hugo version
 
 dev: ## Run the local development server
-	hugo serve --noHTTPCache --enableGitInfo --disableFastRender --environment development
+	hugo serve --noHTTPCache --disableFastRender --environment development
 
 future: ## Run the local development server in the future
-	hugo serve --enableGitInfo --buildFuture --disableFastRender --environment development
+	hugo serve --buildFuture --disableFastRender --environment development
 
 KILLPUB:=$(shell [ -d ./public ] && rm -rf ./public)
 
-build: ##  build site
+build: ##  build site and send algolia index
 	 $(KILLPUB) hugo --gc --minify && hugo-theme-bootstrap-algolia
 
 start: upgrade-hugo serve ## Update Hugo and start development server
