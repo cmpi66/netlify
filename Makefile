@@ -12,7 +12,7 @@ updatetheme: # update theme
 	npm update
 
 links: # show broken links
-	python hydra.py https://www.munozpi.com --config ./hydra-config.json > report.yaml
+	python hydra.py https://www.munozpi.com --config hydra-config.json > report.yaml
 
 # install: ## Install or update dependencies
 # 	npm i
