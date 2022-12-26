@@ -17,7 +17,7 @@ In the future, there’ll be more hacking, cybersecurity, networking, firewalls,
 
 You can go [here](https://www.munozpi.com/blog/about-this-site/) to see how I built this site.
 
-I deploy my website to Netlify, so a netlify.toml handles the automatic deployment every time I push to the `main branch`. I keep the content in a separate private repo and load it up with a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
+I deploy my website to [Netlify](https://netlify.com), so a netlify.toml handles the automatic deployment every time I push to the `main branch`. I keep the content in a separate private repo and load it up with a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
 A Makefile stores all the commands to running and deploying the site. That way I won’t have to remember countless commands. The Makefile updates Hugo, the theme and installs any dependencies.
 
