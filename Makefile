@@ -38,7 +38,7 @@ future: ## Run the local development server in the future
 
 KILLPUB:=$(shell [ -d ./public ] && rm -rf ./public)
 
-build: ##  build site and send algolia index
+build: # build site and send algolia index
 	 $(KILLPUB) hugo --gc --minify && hugo-theme-bootstrap-algolia
 
 start: upgrade-hugo serve ## Update Hugo and start development server
