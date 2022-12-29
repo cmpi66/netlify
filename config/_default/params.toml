@@ -254,8 +254,8 @@ viewer = true # Image Viewer
 
 [contact]
   # endpoint = "https://getform.io/f/56041c81-9e03-4c24-b9c5-61238854d4cd" # Backend endpoint, remove this line if you're using Netlify.
-  file = true # Enable file upload
-  fileField = "image" # The name of file field.
+  # file = true # Enable file upload
+  # fileField = "image" # The name of file field.
   # [contact.reCaptcha]
   #   siteKey = "6LcWQH0gAAAAAJPZN9S-wrugRUukNOiHfxmFOSM5"
 
