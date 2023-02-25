@@ -25,7 +25,7 @@ upgrade-hugo: ## Get the latest Hugo
 	mkdir tmp/ && \
 	cd tmp/ && \
 	curl -sSL https://github.com/gohugoio/hugo/releases/download/v$(HUGO_VERSION)/hugo_extended_$(HUGO_VERSION)_Linux-64bit.tar.gz | tar -xvzf- && \
-	sudo mv hugo /usr/local/bin/ && \
+	doas mv hugo /usr/local/bin/ && \
 	cd .. && \
 	rm -rf tmp/
 	hugo version
