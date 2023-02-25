@@ -1,3 +1,6 @@
 [submodule "content"]
 	path = content
 	url = git@github.com:cmpi66/content.git
+[submodule "zettlekasten"]
+	path = zettlekasten
+	url = git@github.com:cmpi66/zettlekasten.git
