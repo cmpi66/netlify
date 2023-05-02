@@ -1,4 +1,4 @@
-baseURL = "https://www.munozpi.com"
+baseURL = "https://notes.munozpi.com"
 title = "Munozpi a blog on all things tech"
 # theme = "hugo-theme-bootstrap" # install via git submodule
 theme = "github.com/razonyang/hugo-theme-bootstrap" # install via hugo module
