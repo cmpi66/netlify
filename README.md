@@ -1,5 +1,5 @@
 
-# [Munozpi.com](https://munozpi.com)
+# [notes.munozpi.com](https://notes.munozpi.com)
 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7d00605d-360e-40b0-9125-d32fbb1a817c/deploy-status)](https://app.netlify.com/sites/elaborate-sprite-b67a31/deploys)
@@ -15,7 +15,7 @@ In the future, there’ll be more hacking, cybersecurity, networking, firewalls,
 
 ## How it works
 
-You can go [here](https://www.munozpi.com/blog/about-this-site/) to see how I built this site.
+You can go [here](https://notes.munozpi.com/blog/about-this-site/) to see how I built this site.
 
 I deploy my website to [Netlify](https://netlify.com), so a netlify.toml handles the automatic deployment every time I push to the `main branch`. I keep the content in a separate private repo and load it up with a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
@@ -23,14 +23,14 @@ A Makefile stores all the commands to running and deploying the site. That way I
 
 ## A Few Useful Articles
 
-- [Get a website up and running in 20 mins or less](https://www.munozpi.com/completed-projects/webserver/)
+- [Get a website up and running in 20 mins or less](https://notes.munozpi.com/completed-projects/webserver/)
 
-- [Use a Raspberry Pi as a home server with docker containers](https://www.munozpi.com/completed-projects/rasperrypi-home-server/#post-content-body)
+- [Use a Raspberry Pi as a home server with docker containers](https://notes.munozpi.com/completed-projects/rasperrypi-home-server/#post-content-body)
 
-- [Use stow to manage your dot files](https://www.munozpi.com/blog/stow/#post-content-body)
+- [Use stow to manage your dot files](https://notes.munozpi.com/blog/stow/#post-content-body)
 
-- [A brief overview on Gentoo Linux](https://www.munozpi.com/blog/gentoo/#post-content-body)
+- [A brief overview on Gentoo Linux](https://notes.munozpi.com/blog/gentoo/#post-content-body)
 
-- [The Linux file structure](https://www.munozpi.com/blog/linux-file-structure/#post-content-body)
+- [The Linux file structure](https://notes.munozpi.com/blog/linux-file-structure/#post-content-body)
 
-- [A brief Ansible tutorial](https://www.munozpi.com/blog/ansible/)
+- [A brief Ansible tutorial](https://notes.munozpi.com/blog/ansible/)
