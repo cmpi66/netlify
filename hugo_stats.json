@@ -437,6 +437,8 @@
       "etc",
       "exploring-omv",
       "fontSizeDropdown",
+      "free-sofware",
+      "fzf",
       "get-a-domain",
       "get-a-server",
       "get-to-know-your-ansible-files",
@@ -496,6 +498,7 @@
       "proc",
       "profile",
       "profile-header",
+      "rclone",
       "recent-posts",
       "recent-posts-tab",
       "root",
@@ -512,6 +515,7 @@
       "sorting-select",
       "srv",
       "ssh-harden",
+      "starship",
       "stats",
       "stats-header",
       "sys",
@@ -527,17 +531,20 @@
       "templateResult",
       "templateStat",
       "the-kernel-rabbit-hole",
+      "the-mentality",
       "the-only-commands-youll-need",
       "the-power-of-choice",
       "theme",
       "tmp",
+      "tmux",
       "tools",
       "tweaking-some-settings",
       "updating",
       "usr",
       "var",
       "what-the-options-mean",
-      "what-these-settings-mean"
+      "what-these-settings-mean",
+      "zoxide"
     ]
   }
 }

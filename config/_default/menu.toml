@@ -18,6 +18,13 @@
   [main.params]
     icon = '<i class="fa fa-folder"></i>'
 # [[main]]
+#   identifier = "books"
+#   name = "Books"
+#   weight = 4
+#   [main.params]
+#     icon = '<i class="fa fa-book" aria-hidden="true"></i>'
+
+# [[main]]
 #   identifier = "test"
 #   name = "Test"
 #   weight = 4
