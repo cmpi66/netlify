@@ -1,8 +1,13 @@
 ---
-title = "{{ replace .Name "-" " " | title }}"
-date = {{ .Date }}
-draft = true
-tags = []
+title: { { replace .Name "-" " " | title } }
+date: { { .Date } }
+description:
+draft: true
+toc: true
+categories: []
+keywords: []
+tags: []
+images: []
 ---
 
 ## Problem
