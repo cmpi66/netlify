@@ -1,0 +1,15 @@
+[tasks.links]
+description = "Check for broken links"
+run = "python hydra.py https://notes.munozpi.com --config hydra-config.json > report.yaml"
+
+[tasks.dev]
+description = "Run the dev env"
+run = "	hugo serve --noHTTPCache --disableFastRender --environment development"
+
+[tasks.future]
+description = "Run the dev env in the future to view scheduled posts"
+run = "	hugo serve --buildFuture --buildExpired --buildDrafts --disableFastRender --environment development"
+
+[tasks.build]
+description = "Build the site"
+run = "hugo --gc --minify"
